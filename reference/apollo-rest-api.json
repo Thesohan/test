@@ -1302,18 +1302,7 @@
           }
         },
         "deprecated": false,
-        "x-readme": {
-          "code-samples": [
-            {
-              "code": "\tcurl --location 'https://app-master.preview.staging-gcp.apollo.io/api/v1/people/bulk_match' \\\n--header 'x-api-key: u4iZphRHIxz05C7AmTDeZA' \\\n--header 'Content-Type: application/json' \\\n--data '{\n    \"details\": [\n        {\n            \"id\": \"testing\"\n        }\n    ]\n}'",
-              "language": "shell",
-              "name": "static example"
-            }
-          ],
-          "samples-languages": [
-            "shell"
-          ]
-        }
+        "x-readme": {}
       }
     }
   },

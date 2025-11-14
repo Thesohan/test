@@ -143,18 +143,18 @@
                 }
               },
               "examples": {
-                "New Example": {
-                  "summary": "New Example",
+                "Sample request body": {
+                  "summary": "Sample request body",
                   "value": {
                     "details": [
                       {
-                        "id": "testing"
+                        "id": "64a7ff0cc4dfae00013df1a5"
                       }
                     ]
                   }
                 },
-                "Using Apollo ID to enrich data (You can find the Apollo ID in the /mixed_people/api_search endpoint)": {
-                  "summary": "Using Apollo ID to enrich data (You can find the Apollo ID in the /mixed_people/api_search endpoint)",
+                "Use Apollo ID to enrich data (Get ID using /mixed_people/api_search endpoint).": {
+                  "summary": "Use Apollo ID to enrich data (Get ID using /mixed_people/api_search endpoint).",
                   "value": {
                     "details": [
                       {

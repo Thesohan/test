@@ -143,6 +143,16 @@
                 }
               },
               "examples": {
+                "Apollo ID to enrich data": {
+                  "summary": "Get Apollo ID using /mixed_people/api_search endpoint.",
+                  "value": {
+                    "details": [
+                      {
+                        "id": "64a7ff0cc4dfae00013df1a5"
+                      }
+                    ]
+                  }
+                },
                 "Sample request body": {
                   "summary": "Sample request body",
                   "value": {
@@ -157,16 +167,6 @@
                         "domain": "apollo.io",
                         "id": "587cf802f65125cad923a266",
                         "linkedin_url": "http://www.linkedin.com/in/tim-zheng-677ba010"
-                      }
-                    ]
-                  }
-                },
-                "Use Apollo ID to enrich data (Get ID using /mixed_people/api_search endpoint).": {
-                  "summary": "Use Apollo ID to enrich data (Get ID using /mixed_people/api_search endpoint).",
-                  "value": {
-                    "details": [
-                      {
-                        "id": "64a7ff0cc4dfae00013df1a5"
                       }
                     ]
                   }

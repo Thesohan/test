@@ -152,6 +152,16 @@
                       }
                     ]
                   }
+                },
+                "New Example 1": {
+                  "summary": "New Example 1",
+                  "value": {
+                    "details": [
+                      {
+                        "id": "64a7ff0cc4dfae00013df1a5"
+                      }
+                    ]
+                  }
                 }
               }
             }

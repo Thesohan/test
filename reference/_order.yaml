@@ -18,11 +18,11 @@ metadata:
 next:
   description: >-
     Now that you know how to find LinkedIn profiles for your prospects, hop in
-    to People Search endpoint reference docs and start testing immediately!
+    to People API Search endpoint reference docs and start testing immediately!
   pages:
-    - title: People Search
+    - title: People API Search
       type: link
-      url: https://docs.apollo.io/reference/people-search#/
+      url: https://docs.apollo.io/reference/people-api-search#/
     - slug: overview-apollo-api-tutorials
       title: Overview - Apollo API Tutorials
       type: basic
@@ -53,10 +53,10 @@ To show how the People API can be used to uncover LinkedIn profiles, let’s wal
 
 To find people matching these demographics:
 
-1. Call the People Search endpoint:
+1. Call the People API Search endpoint:
 
 ```http
-POST https://api.apollo.io/api/v1/mixed_people/search
+POST https://api.apollo.io/api/v1/mixed_people/api_search
 ```
 
 2. Add the following query parameters:
@@ -140,7 +140,7 @@ The following code sample shows the example as a cURL request:
 
 ```curl
 curl --request POST \
-     --url 'https://api.apollo.io/api/v1/mixed_people/search?person_titles[]=sales&person_titles[]=revenue&include_similar_titles=true&person_seniorities[]=c_suite&person_seniorities[]=head&person_seniorities[]=director&person_seniorities[]=manager&q_organization_domains_list[]=apollo.io' \
+     --url 'https://api.apollo.io/api/v1/mixed_people/api_search?person_titles[]=sales&person_titles[]=revenue&include_similar_titles=true&person_seniorities[]=c_suite&person_seniorities[]=head&person_seniorities[]=director&person_seniorities[]=manager&q_organization_domains_list[]=apollo.io' \
      --header 'Cache-Control: no-cache' \
      --header 'Content-Type: application/json' \
      --header 'accept: application/json' \

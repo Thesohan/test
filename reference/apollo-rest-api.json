@@ -151,6 +151,9 @@
                         "id": "64a7ff0cc4dfae00013df1a5"
                       }
                     ]
+                  },
+                  "x-readme": {
+                    "selected": true
                   }
                 },
                 "Sample request body": {

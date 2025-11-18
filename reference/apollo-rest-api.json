@@ -1323,7 +1323,7 @@
         "x-readme": {
           "code-samples": [
             {
-              "code": "curl --request POST \\\n     --url 'https://api.apollo.io/api/v1/people/bulk_match?reveal_personal_emails=false&reveal_phone_number=false' \\\n     --header 'Cache-Control: no-cache' \\\n     --header 'Content-Type: application/json' \\\n     --header 'accept: application/json' \\\n     --header 'authorization: Bearer 0mm0q8iM-Oz001G61Ltzyw' \\\n     --data '\n{\n  \"details\": [\n    {\n      \"id\": \"64a7ff0cc4dfae00013df1a5\"\n    }\n  ]\n}\n'",
+              "code": "curl --request POST \\\n     --url 'https://api.apollo.io/api/v1/people/bulk_match?reveal_personal_emails=false&reveal_phone_number=false' \\\n     --header 'Cache-Control: no-cache' \\\n     --header 'Content-Type: application/json' \\\n     --header 'accept: application/json' \\\n     --header 'authorization: Bearer 0mm0q8iM-Oz001G61Ltzyw' \\\n     --data '\n{\n  \"details\": [\n    { \n      \"id\": \"64a7ff0cc4dfae00013df1a5\"\n    }\n  ]\n}\n'",
               "language": "shell",
               "name": ""
             }

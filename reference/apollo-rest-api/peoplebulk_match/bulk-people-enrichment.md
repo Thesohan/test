@@ -17,16 +17,16 @@ excerpt: >-
   set either of these parameters to `true`, Apollo will attempt to provide
   emails or phone numbers for all matches. <br><br> Using this endpoint will
   consume credits based on your account's pricing plan. To view a summary of
-  Apollo's pricing, visit the  <a href="https://www.apollo.io/pricing" target="_blank">
-  public pricing page ↗</a> For detailed information regarding API credit usage, see the
-  <a href="https://app.apollo.io/#/settings/credits/about"
-  target="_blank"> API enrichment ↗</a> section on the *About Credits* page (login required).
+  Apollo's pricing, visit the  <a href="https://www.apollo.io/pricing"
+  target="_blank"> public pricing page ↗</a> For detailed information regarding
+  API credit usage, see the <a
+  href="https://app.apollo.io/#/settings/credits/about" target="_blank"> API
+  enrichment ↗</a> section on the *About Credits* page (login required).
   <br><br> **Note:** This endpoint is not available to users on free plans.
   <br><br>This endpoint's <a href="https://docs.apollo.io/reference/rate-limits"
   target="_blank">rate limit</a> is throttled to 50% of the People Enrichment
   endpoint's per-minute rate limit, and is 100% of the hourly and daily rate
   limits for the same individual endpoint.
-
 api:
   file: apollo-rest-api.json
   operationId: bulk-people-enrichment

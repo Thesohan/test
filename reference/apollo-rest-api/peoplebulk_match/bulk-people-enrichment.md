@@ -1,7 +1,7 @@
 ---
 title: Bulk People Enrichment
 excerpt: >-
-  Use the Bulk People Enrichment endpoint to enrich data for up to 10 people
+  Use the Bulk People Enrichment  dfendpoint to enrich data for up to 10 people
   with a single API call. To enrich data for only 1 person, use the <a
   href="https://docs.apollo.io/reference/people-enrichment"
   target="_blank">People Enrichment endpoint</a> instead. <br><br>Apollo relies
@@ -17,9 +17,10 @@ excerpt: >-
   set either of these parameters to `true`, Apollo will attempt to provide
   emails or phone numbers for all matches. <br><br> Using this endpoint will
   consume credits based on your account's pricing plan. To view a summary of
-  Apollo's pricing, visit the [Public Pricing Page ↗](https://www.apollo.io/pricing).
-  For detailed information regarding API credit usage, see the API Enrichment section
-  on the [About Credits ↗](https://app.apollo.io/#/settings/credits/about) page (login required).
+  Apollo's pricing, visit the [Public Pricing Page
+  ↗](https://www.apollo.io/pricing). For detailed information regarding API
+  credit usage, see the API Enrichment section on the [About Credits
+  ↗](https://app.apollo.io/#/settings/credits/about) page (login required).
   <br><br> **Note:** This endpoint is not available to users on free plans.
   <br><br>This endpoint's <a href="https://docs.apollo.io/reference/rate-limits"
   target="_blank">rate limit</a> is throttled to 50% of the People Enrichment
@@ -55,4 +56,4 @@ metadata:
     limits for the same individual endpoint.
 ---
 Use the Bulk People Enrichment endpoint to enrich data for up to 10 people
-with a single API call. To enrich data for only 1 person, use the <a href="https://docs.apollo.io/reference/people-enrichment" target="_blank">People Enrichment endpoint</a> instead.
+with a single API call. To enrich data for only 1 person, use the <a href="https://docs.apollo.io/reference/people-enrichment" target="_blank">People Enrichment endpoint</a> instead.f

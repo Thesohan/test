@@ -33,12 +33,5 @@ metadata:
     endpoint's per-minute rate limit, and is 100% of the hourly and daily rate
     limits for the same individual endpoint.
 ---
-<br />
-
-## Credit Consumption
-
-Using this endpoint **consumes credits** according to your account’s pricing plan.
-For a summary of Apollo’s pricing, see the [Public Pricing Page ↗](https://www.apollo.io/pricing).
-For detailed information about API credit usage, review the [API Enrichment](https://app.apollo.io/#/settings/credits/about) section on the _About Credits_ page (login required).
-
-**Note:** This endpoint is **unavailable** to users on free plans.
+Use the Bulk People Enrichment endpoint to enrich data for up to 10 people
+with a single API call. To enrich data for only 1 person, use the <a href="https://docs.apollo.io/reference/people-enrichment" target="_blank">People Enrichment endpoint</a> instead.

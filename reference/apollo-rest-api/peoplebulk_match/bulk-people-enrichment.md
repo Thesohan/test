@@ -21,7 +21,7 @@ excerpt: >-
   ↗](https://www.apollo.io/pricing). For detailed information regarding API
   credit usage, see the API Enrichment section on the [About Credits
   ↗](https://app.apollo.io/#/settings/credits/about) page (login required).
-  <br><br> > **Note:** This endpoint is not available to users on free plans.
+  <br><br> >Note: This endpoint is not available to users on free plans.
   <br><br>This endpoint's <a href="https://docs.apollo.io/reference/rate-limits"
   target="_blank">rate limit</a> is throttled to 50% of the People Enrichment
   endpoint's per-minute rate limit, and is 100% of the hourly and daily rate

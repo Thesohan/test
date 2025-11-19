@@ -38,9 +38,7 @@ metadata:
 ## Credit Consumption
 
 Using this endpoint **consumes credits** according to your account’s pricing plan.
-
 For a summary of Apollo’s pricing, see the [Public Pricing Page ↗](https://www.apollo.io/pricing).
-
 For detailed information about API credit usage, review the [API Enrichment](https://app.apollo.io/#/settings/credits/about) section on the _About Credits_ page (login required).
 
 **Note:** This endpoint is **unavailable** to users on free plans.

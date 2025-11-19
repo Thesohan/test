@@ -45,7 +45,7 @@
             "description": "Set to `true` if you want to enrich all matched people with personal emails. This potentially consumes credits as part of your <a href=\"https://docs.apollo.io/docs/api-pricing\" target=\"_blank\">Apollo pricing plan</a>. The default value is `false`. <br><br>If a person resides in a <a href=\"https://knowledge.apollo.io/hc/en-us/articles/4409141087757\" target=\"_blank\">GDPR</a>-compliant region, Apollo will not reveal their personal email.",
             "schema": {
               "type": "boolean",
-              "default": false
+              "default": "timasdf"
             }
           },
           {

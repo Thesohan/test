@@ -27,11 +27,20 @@ metadata:
     `reveal_personal_emails` and `reveal_phone_number` parameters to retrieve
     emails and phone numbers. If you set either of these parameters to `true`,
     Apollo will attempt to provide emails or phone numbers for all matches.
-    <br><br>{% include "_snippets/credits-and-free-plans-notice.md" %}
-    This endpoint's <a
-    href="https://docs.apollo.io/reference/rate-limits" target="_blank">rate
-    limit</a> is throttled to 50% of the People Enrichment endpoint's per-minute
-    rate limit, and is 100% of the hourly and daily rate limits for the same
-    individual endpoint.
+    <br><br>{% include "_snippets/credits-and-free-plans-notice.md" %} This
+    endpoint's <a href="https://docs.apollo.io/reference/rate-limits"
+    target="_blank">rate limit</a> is throttled to 50% of the People Enrichment
+    endpoint's per-minute rate limit, and is 100% of the hourly and daily rate
+    limits for the same individual endpoint.
 ---
-test
+<br />
+
+## Credit Consumption
+
+Using this endpoint **consumes credits** according to your account’s pricing plan.
+
+For a summary of Apollo’s pricing, see the [Public Pricing Page ↗](https://www.apollo.io/pricing).
+
+For detailed information about API credit usage, review the [API Enrichment](https://app.apollo.io/#/settings/credits/about) section on the _About Credits_ page (login required).
+
+**Note:** This endpoint is **unavailable** to users on free plans.

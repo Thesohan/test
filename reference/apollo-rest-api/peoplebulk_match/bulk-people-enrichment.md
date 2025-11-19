@@ -49,11 +49,11 @@ metadata:
     `reveal_personal_emails` and `reveal_phone_number` parameters to retrieve
     emails and phone numbers. If you set either of these parameters to `true`,
     Apollo will attempt to provide emails or phone numbers for all matches.
-    <br><br>{% include "_snippets/credits-and-free-plans-notice.md" %}
-    This endpoint's <a
-    href="https://docs.apollo.io/reference/rate-limits" target="_blank">rate
-    limit</a> is throttled to 50% of the People Enrichment endpoint's per-minute
-    rate limit, and is 100% of the hourly and daily rate limits for the same
-    individual endpoint.
+    <br><br>{% include "_snippets/credits-and-free-plans-notice.md" %} This
+    endpoint's <a href="https://docs.apollo.io/reference/rate-limits"
+    target="_blank">rate limit</a> is throttled to 50% of the People Enrichment
+    endpoint's per-minute rate limit, and is 100% of the hourly and daily rate
+    limits for the same individual endpoint.
 ---
-test
+Use the Bulk People Enrichment endpoint to enrich data for up to 10 people
+with a single API call. To enrich data for only 1 person, use the <a href="https://docs.apollo.io/reference/people-enrichment" target="_blank">People Enrichment endpoint</a> instead.

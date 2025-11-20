@@ -1323,18 +1323,7 @@
           }
         },
         "deprecated": false,
-        "x-readme": {
-          "code-samples": [
-            {
-              "code": "curl --request POST \\\n     --url 'https://api.apollo.io/api/v1/people/bulk_match?reveal_personal_emails=false&reveal_phone_number=false' \\\n     --header 'Cache-Control: no-cache' \\\n     --header 'Content-Type: application/json' \\\n     --header 'accept: application/json' \\\n     --data '\n{\n  \"details\": [\n    {\n      \"first_name\": \"tim\",\n      \"last_name\": \"zheng\",\n      \"name\": \"tim zheng\",\n      \"email\": \"tim@apollo.io\",\n      \"hashed_email\": \"8d935115b9ff4489f2d1f9249503cadf\",\n      \"organization_name\": \"apollo\",\n      \"domain\": \"apollo.io\",\n      \"id\": \"587cf802f65125cad923a266\",\n      \"linkedin_url\": \"http://www.linkedin.com/in/tim-zheng-677ba010\"\n    }\n  ]\n}\n'",
-              "language": "shell",
-              "name": ""
-            }
-          ],
-          "samples-languages": [
-            "shell"
-          ]
-        }
+        "x-readme": {}
       }
     }
   },
